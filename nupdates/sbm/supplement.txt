@@ -1,6 +1,6 @@
 # iPab.TV Supplementary File for adding Stations
 # Updated online as needed
-# Version 20160621.0
+# Version 20160807.0
 
 ###################################################
 #                                                 #
@@ -32,20 +32,8 @@
 #Force Add Some Channels into the Lineup
 ###################################################
 
-#BBC Olympics
-472:1081:19:439:7fb:11a0000:BSkyB:FTA:Olympics1
-473:1082:19:43a:7fb:11a0000:BSkyB:FTA:Olympics2
-474:1083:19:43b:7fb:11a0000:BSkyB:FTA:Olympics3
-475:1084:19:43c:803:11a0000:BSkyB:FTA:Olympics4
-476:1085:19:43d:803:11a0000:BSkyB:FTA:Olympics5
-477:1086:19:43e:803:11a0000:BSkyB:FTA:Olympics6
-478:1087:19:43f:804:11a0000:BSkyB:FTA:Olympics7
-479:1088:19:440:804:11a0000:BSkyB:FTA:Olympics8
-480:1089:19:22e4:804:11a0000:BSkyB:FTA:Olympics9
-
 #3e
 987:3615:1:e1f:7d7:11a0000:BSkyB:NDS:3e
-1:0:1:E1F:7D7:2:11A0000:0:0:0::987 3e
 
 #TV3
 988:1255:1:1298:7e5:11a0000:BSkyB:NDS:TV3
@@ -71,10 +59,6 @@
 #MUTV UK HD
 453:1003::::::FTA:
 
-#RTE TWO HD
-224:1270::::::FTA:
-115:1270::::::FTA:
-
 #ITV2 HD
 225:6532::::::FTA:
 118:6532::::::FTA:
@@ -98,33 +82,6 @@
 
 #BoxNation HD
 490:5039::::::FTA:
-
-#SBO HD (REMOVED)
-#752:4032::::::FTA:
-
-#Currently Disabled
-#AMC from BT HD
-#276:5037::::::FTA:
-
-#BT Sport 1 HD      EPG ID= 3625&3626
-#427:3625::::::FTA:
-#427:3626::::::FTA:
-#1074:3626::::::FTA:
-
-#BT Sport 2 HD       EPG ID= 3627&3628
-#457:3627::::::FTA:
-#427:3628::::::FTA:
-#1076:3628::::::FTA:
-
-#BT Spt Eur HD      EPG ID= 3629&3630
-#433:3629::::::FTA:
-#433:3630::::::FTA:
-#1232:3630::::::FTA:
-
-#BT Spt ESPN HD     EPG ID= 4040&4041
-#458:4040::::::FTA:
-#458:4041::::::FTA:
-#1072:4041::::::FTA:
 
 #Sky Sports ROI#
 492:1309:1:1332:7e7:11a0000:BSkyB:NDS:ROI SS1
@@ -158,8 +115,6 @@
 447:3735::::::NDS:
 #Nick Jr+1
 630:5089::::::NDS:
-#RTE2
-224:1270::::::NDS:
 
 #ITV Regional Renames
 # (for users in the default London area)
@@ -246,18 +201,13 @@
 178:6504:::::::ITV London HD
 178:6505:::::::ITV Granada HD
 
-# these have been added to compensate for poor data when ran on ITV transponder
-276:5037:::::::AMC from BTHD
-596:5541:::::::DAYSTAR HD
-856:3414:::::::TV Record HD
-
 #BBC Interactive
-980:2051:::::::BBC Red Button 1
-65535:2052:::::::BBC Red Button 2
-1224:2142:::::::BBC Red Button 3
-1212:2014:::::::BBC Red Button 4
-1214:2121:::::::BBC Red Button 5
-1215:2171:::::::BBC Red Button 6
+#980:2051:::::::BBC Red Button 1
+#65535:2052:::::::BBC Red Button 2
+#1224:2142:::::::BBC Red Button 3
+#1212:2014:::::::BBC Red Button 4
+#1214:2121:::::::BBC Red Button 5
+#1215:2171:::::::BBC Red Button 6
 
 #BT Sport Interactive
 65535:5030:::::::BT Sport Mosaic
@@ -280,12 +230,25 @@
 65535:1478:1::::::Sky Sports Active 8
 65535:1479:1::::::Sky Sports Active 9
 
-###########################################################
-# Force Removal of Channels
-# change type to 19 and also to NDS
+## Force Removal of Channels
+## change type to 19 and also to NDS
 400:1329:19:::::NDS:
 898:1311:19:::::NDS:
 899:1819:19:::::NDS:
 950:1852:19:::::NDS:
 991:9006:19:::::NDS:
 461:5154:19:::::NDS:
+990:9000:19:::::NDS:
+910:1856:19:::::NDS:
+920:1031:19:::::NDS:
+921:1029:19:::::NDS:
+922:1028:19:::::NDS:
+923:1030:19:::::NDS:
+924:1866:19:::::NDS:
+925:1854:19:::::NDS:
+926:1754:19:::::NDS:
+
+## these have been added to compensate for poor data when ran on ITV transponder
+276:5037:::::::AMC from BTHD
+596:5541:::::::DAYSTAR HD
+856:3414:::::::TV Record HD
