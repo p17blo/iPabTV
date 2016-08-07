@@ -1,0 +1,84 @@
+#iPab Sky Bouquets Maker Custom Swaps Updated Nightly when needed
+#28 July 2016
+
+#London Live
+1050=117
+
+#BBC One (HD Swap not enabled by default)
+#141=101
+
+#BBC2
+#141=102 (Temporarily removed to sort of regional issues with Wales and Scotland)
+
+#ITV
+178=103
+
+#CH4
+227=104
+
+#CH5
+171=105
+
+#BBC Four
+143=116
+
+#ITV2
+225=118
+
+#ITV3
+263=119
+
+#ITV4
+268=120
+
+#ITV Encore
+269=123
+
+#BBC News HD
+570=503
+
+#RT News HD
+518=512
+
+#Setanta HD
+460=424
+
+#Premier Sports HD
+462=428
+
+#CBBC HD
+633=613
+
+#CBeebies HD
+624=624
+
+#TV Record HD
+856=801
+
+#Daystar HD
+596=583
+
+# &TV HD
+853=795
+
+#MUTV
+418=453
+
+#S4C
+280=134
+
+#Currently Disabled
+#AMC from BT HD
+#276=192
+
+#BT Sports 1 HD
+#427=413
+
+#BT Sports 2 HD
+#457=417
+
+#BT Sport Eur HD
+#433=414
+
+#BT Sport /ESPN HD
+#458=426
