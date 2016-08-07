@@ -1,6 +1,6 @@
 # iPab.TV Supplementary File for adding Stations
 # Updated online as needed
-# Version 20160807.0
+# Version 20160807.0 - github
 
 ###################################################
 #                                                 #
